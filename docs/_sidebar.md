@@ -1,4 +1,3 @@
-* [Home](/)
-
-    * [Beispiel Subfolder](sub/)
-    * [Demos](demos/)
+* [Theorie](Theorie/)
+  * [Begriffe](Theorie/Begriffe.md)
+* [Praxisaufträge](Praxisaufträge/)
