@@ -122,6 +122,6 @@ Das Überweisen von Geld zwischen Konto A und Konto B. Angenommen, du willst 5 C
 2. Lese den Kontostand von Konto A
 3. Ziehe 5 CHF vom Kontostand von Konto A ab
 4. Lese den Kontostand von Konto B
-5. Addiere 5 CHF zu Konto 
+5. Addiere 5 CHF zu Konto B
 
 Wenn deine Datenbank diese Transaktion als eine gesamte Einheit ausführt und das System beispielsweise wegen eines Stromausfalls abstürzt, wird die Transaktion rückgängig gemacht, wodurch die Datenbank in ihren ursprünglichen Zustand zurückversetzt wird.
