@@ -4,3 +4,4 @@
   * [Voraussetzungen bei der Installation von MySQL](Theorie/VoraussetzungenInstallationMySQL.md)
 * [Praxisaufträge](Praxisaufträge/)
   * [DBMS meiner Wahl - MSSQL](Praxisaufträge/DBMS.md)
+  * [MySQL installieren](Praxisaufträge/MySQLInstallieren.md)
