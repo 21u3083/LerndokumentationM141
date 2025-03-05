@@ -3,6 +3,8 @@
   * [MySQL](Theorie/MySQL.md)
   * [Voraussetzungen bei der Installation von MySQL](Theorie/VoraussetzungenInstallationMySQL.md)
   * [Storage Engines](Theorie/StorageEngines.md)
+  * [Datentypen](Theorie/Datentypen.md)
+  * [Indexierung](Theorie/Indexierung.md)
 * [Praxisaufträge](Praxisaufträge/)
   * [DBMS meiner Wahl - MSSQL](Praxisaufträge/DBMS.md)
   * [MySQL installieren](Praxisaufträge/MySQLInstallieren.md)
