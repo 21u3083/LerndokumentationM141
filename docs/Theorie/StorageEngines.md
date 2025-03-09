@@ -116,3 +116,6 @@ Auf MySQL können alle Storages Engines abgerufen werden mit folgendem Befehl.
 SHOW ENGINES;
 ```
 ![ShowEngines](../pictures/ShowEngines.jpg)
+
+
+sudo mysql -u root pokemon < dump.sql

@@ -75,7 +75,7 @@ SELECT @@transaction_isolation;
 | Anomalie              | Erklärung                                                                                                   |
 |-----------------------|-----------------------------------------------------------------------------------------------------------|
 | **Dirty Reads**       | Eine Transaktion kann keine Änderungen sehen, die von einer anderen Transaktion noch nicht bestätigt wurden. |
-| **Non-Repeatable Reads** | Wenn eine Transaktion eine Zeile zweimal liest, bleibt der Wert gleich, selbst wenn eine andere Transaktion ihn zwischenzeitlich ändert. |
+| **Repeatable Reads** | Wenn eine Transaktion eine Zeile zweimal liest, bleibt der Wert gleich, selbst wenn eine andere Transaktion ihn zwischenzeitlich ändert. |
 | **Phantom Reads**     | Neue Datensätze, die in einer anderen Transaktion eingefügt werden, könnten sichtbar werden, wenn eine erneute Abfrage durchgeführt wird. |
 
 
