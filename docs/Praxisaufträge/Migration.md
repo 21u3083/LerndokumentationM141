@@ -31,11 +31,23 @@
    ```
 2. SSH verbinden
    ```
-   ssh 10.0.2.20
+   ssh 10.0.2.25
    ```
-
+   
 
 ### Dump durchführen
-```
-sudo mysqldump pokemon -u root -p --fields-terminated-by ',' --fields-enclosed-by '"' --fields-escaped-by '\' --no-create-info --tab /var/lib/mysql-files/ | ssh 10.0.2.20 "mysql -u root -p --database pokemon"
-```
+1. Named Pipe erstellen
+   ```
+   mkfifo namedPipe
+   ```
+2. MySQLDump erstellen
+   ```
+   mysqldump --single-transaction -u root -pRoot1234! pokemon | gzip -9 > namedPipe
+   ```
+3. Dump auf SSH übertragen
+   ```
+   ssh vagrant@10.0.2.25 'gunzip | mysql -u root -pRoot1234! pokemon_ssh' < namedPipe;
+   ```
+   -u: user
+   -p: Passwort (gleich mitgeben)
+   -pokemon_ssh: Ziel DB auf der der SQLDump ausgeführt werden soll.

@@ -48,7 +48,38 @@
 ## mydumper und myloader
 ### Installation
 
-1. Update durchführen
+[LINK](https://mydumper.github.io/mydumper/docs/html/installing.html)
+
+1. Paket holen durchführen
+   ```
+   wget -qO- 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x1D357EA7D10C9320371BDD0279EA15C0E82E34BA&exact=on' | sudo tee /etc/apt/keyrings/mydumper.asc
+   ```
+2. File erstellen
+   ```
+   sudo /etc/apt/sources.list.d/mydumper.list
+   ```
+   Konfiguration
+   ```
+   deb [arch=amd64 signed-by=/etc/apt/keyrings/mydumper.asc] https://mydumper.github.io/mydumper/repo/apt/ubuntu noble main
+   ```
+3. Update durchführen
+   ```
+   sudo apt update
+   ```
+4. Dump installieren
+   ```
+   sudo apt-get -y install mydumper
+   ```
+5. Installation überprüfen
+   ```
+   mydumper --version
+   ```
+   
+
+
+**ACHTUNG FUNKTIONIERT NICHT RICHTIG**
+
+1. Updates
    ```
    sudo apt update
    ```
@@ -58,15 +89,17 @@
    sudo apt-get install libpcre3
    ```
 3. VM neu starten, damit die Dependencies richtig geladen werden
-3. Installieren
+4. Installieren
    ```
    wget https://github.com/mydumper/mydumper/releases/download/v0.16.1-2/mydumper_0.16.1-2.jammy_amd64.deb
    sudo dpkg -i mydumper_0.16.1-2.jammy_amd64.deb
-   ```¨
-4. Installation überprüfen
+   ```
+5. Installation überprüfen
    ```
    mydumper --version
    ```
+
+
 
 ### MyDumper (Backup erstellen)
 Beispiel Befehl um ein Backup zu erstellen
