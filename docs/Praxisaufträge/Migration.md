@@ -48,6 +48,6 @@
    ```
    ssh vagrant@10.0.2.25 'gunzip | mysql -u root -pRoot1234! pokemon_ssh' < namedPipe;
    ```
-   -u: user
-   -p: Passwort (gleich mitgeben)
+   -u: user \
+   -p: Passwort (gleich mitgeben) \
    -pokemon_ssh: Ziel DB auf der der SQLDump ausgeführt werden soll.

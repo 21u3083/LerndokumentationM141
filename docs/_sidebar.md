@@ -13,3 +13,4 @@
   * [Import & Export](Praxisaufträge/Import_Export.md)
   * [Backup](Praxisaufträge/Backup.md)
   * [Migration](Praxisaufträge/Migration.md)
+  * [Etherpad](Praxisaufträge/Etherpad.md)
