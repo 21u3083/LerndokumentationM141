@@ -14,3 +14,5 @@
   * [Backup](Praxisaufträge/Backup.md)
   * [Migration](Praxisaufträge/Migration.md)
   * [Etherpad](Praxisaufträge/Etherpad.md)
+  * [Sakila](Praxisaufträge/Sakila.md)
+  * [Chat](Praxisaufträge/Chat.md)

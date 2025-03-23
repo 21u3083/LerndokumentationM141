@@ -52,6 +52,10 @@
    ```
    sudo apt install nodejs
    ```
+3. Plugins installieren
+   ```
+   npm install --no-save --legacy-peer-deps ep_align ep_comments_page ep_embedded_hyperlinks2 ep_font_color ep_headings2 ep_markdown ep_webrtc
+   ```
 
 
 ## Starten
@@ -67,3 +71,12 @@
    ```
    http://localhost:9001
    ```
+
+
+## Testing
+1. Zweiten Browser installieren
+   ```
+   sudo apt-get install chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg
+   ```
+2. Auf beiden Browsern Etherpad öffnen
+3. Gemeinsames Pad erstellen und sehen, wie es sich verändert
