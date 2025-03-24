@@ -56,3 +56,44 @@
    ```
 3. Beim einem Browser mit User 1 und beim anderen mit User 2 anmelden \
    Jetzt kann man Nachrichten an den andere schicken
+
+
+
+## Stored Procedure
+Folgendes SQL sollte via Stored Procedure ausgeführt werden können.
+![Ausgangslage Chat](../pictures/StoredProcedure/AusgangslageChat.jpg)
+
+
+```sql
+DELIMITER //
+CREATE PROCEDURE save_message 
+(
+   IN data varchar(500),
+   IN user varchar(250) 
+) 
+BEGIN 
+   INSERT INTO message
+   (
+      message,
+      user
+   ) VALUES 
+   (
+      data,
+      user
+   ); 
+END//
+DELIMITER ;
+```
+
+**Chat-User auf die Stored Procedure berechtigen**
+```sql
+GRANT EXECUTE ON PROCEDURE save_message TO 'chat'@'localhost';¨
+FLUSH PRIVILEGES;
+```
+
+Aufruf: \
+![Chat Ausgabe](../pictures/StoredProcedure/ChatAusgabe.jpg)
+
+
+Angepasstes Server.js: \
+![Angepasstes Server.js](../pictures/StoredProcedure/ChatServerjs.jpg)
