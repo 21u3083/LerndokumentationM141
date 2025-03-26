@@ -97,3 +97,17 @@ Aufruf: \
 
 Angepasstes Server.js: \
 ![Angepasstes Server.js](../pictures/StoredProcedure/ChatServerjs.jpg)
+
+
+## Views
+Folgendes SQL sollte via View ausgeführt werden können.
+![Ausgangslage Chat View](../pictures/Views/AusgangslageChat.jpg)
+
+```sql
+CREATE VIEW get_message AS
+   SELECT * 
+   FROM message;
+```
+
+Angepasstes Server.js: \
+![Angepasstes Server.js View](../pictures/Views/AngepasstesJson.jpg)

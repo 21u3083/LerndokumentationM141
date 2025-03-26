@@ -76,6 +76,7 @@ Danach sieht es so aus: \
 
 
 ## View
+**Für eine View ist der Befehl `DELIMITER //` nicht nötig**
 Anforderung: \
 Es werden alle Schauspieler aufgelistet, inklusive der Filme in welchen sie gearbeitet haben (angereichert mit der Information über die Filmkategorie)
 
