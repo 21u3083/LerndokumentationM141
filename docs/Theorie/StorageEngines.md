@@ -61,13 +61,13 @@ MyISAM war lange Zeit die Standard-Storage-Engine in MySQL, wurde aber von InnoD
 ## InnoDB oder MyISAM?
 | Merkmal        | InnoDB | MyISAM |
 |---------------|--------|--------|
-| **Transaktionen (ACID)** | ✅ Ja | ❌ Nein |
-| **Referenzielle Integrität (Foreign Keys)** | ✅ Ja | ❌ Nein |
-| **Lesegeschwindigkeit** | 🔹 Gut | ✅ Sehr schnell |
-| **Schreibgeschwindigkeit** | ✅ Schnell | 🔹 Gut |
-| **Speicherbedarf** | ❌ Höher | ✅ Niedriger |
-| **Full-Text Search** | 🔹 Ab MySQL 5.6 | ✅ Ja |
-| **Multi-User Funktionalität** | ✅ Sehr gut (Row-Level Locking) | ❌ Schlecht (Table-Level Locking) |
+| **Transaktionen (ACID)** | Ja | Nein |
+| **Referenzielle Integrität (Foreign Keys)** | Ja | Nein |
+| **Lesegeschwindigkeit** | Gut | Sehr schnell |
+| **Schreibgeschwindigkeit** | Schnell | Gut |
+| **Speicherbedarf** | Höher | Niedriger |
+| **Full-Text Search** | Ab MySQL 5.6 | Ja |
+| **Multi-User Funktionalität** | Sehr gut (Row-Level Locking) | Schlecht (Table-Level Locking) |
 
 
 ## Restliche Storage Engines

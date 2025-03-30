@@ -6,6 +6,7 @@
   * [Datentypen](Theorie/Datentypen.md)
   * [Indexierung](Theorie/Indexierung.md)
   * [Backup](Theorie/Backup.md)
+  * [Performance](Theorie/Performance.md)
 * [Praxisaufträge](Praxisaufträge/)
   * [DBMS meiner Wahl - MSSQL](Praxisaufträge/DBMS.md)
   * [MySQL installieren](Praxisaufträge/MySQLInstallieren.md)
@@ -16,3 +17,4 @@
   * [Etherpad](Praxisaufträge/Etherpad.md)
   * [Sakila](Praxisaufträge/Sakila.md)
   * [Chat](Praxisaufträge/Chat.md)
+  * [Performance und Indexing](Praxisaufträge/Performance&Indexing.md)
