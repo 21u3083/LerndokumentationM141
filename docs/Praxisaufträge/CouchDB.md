@@ -113,6 +113,3 @@ curl -X DELETE http://admin:AdminCouchDB1234%21@127.0.0.1:5984/eneastestdb
 
 ![DB Konsolen Kommandos](../pictures/CouchDB/DBCommandsKonsole.jpg)
 
-
-
-## Flask Applikation mit CouchDB
