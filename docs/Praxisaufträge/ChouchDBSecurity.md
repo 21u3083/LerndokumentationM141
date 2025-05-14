@@ -39,6 +39,11 @@ CouchDB neustarten
 sudo systemctl restart couchdb
 ```
 
+#### Admin user abrufen
+```
+cat /etc/local.d/10-admins.ini
+```
+
 
 ### Session-ID
 1. Session ID abrufen mit curl

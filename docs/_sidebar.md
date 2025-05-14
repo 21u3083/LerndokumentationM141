@@ -23,3 +23,4 @@
   * [CouchDB - Flask App](Praxisaufträge/FlaskAppCouchDB.md)
   * [CouchDB - Security](Praxisaufträge/ChouchDBSecurity.md)
   * [Couch DB - Backup, Import und Export](Praxisaufträge/CouchDBBackupImportExport.md)
+  * [Couch DB - Replikation](Praxisaufträge/CouchDBReplikation.md)
