@@ -8,6 +8,7 @@
   * [Backup](Theorie/Backup.md)
   * [Performance](Theorie/Performance.md)
   * [CouchDB Einführung](Theorie/CouchDBEinfuehrung.md)
+  * [LB 1 Lernziele](Theorie/LB1.md)
 * [Praxisaufträge](Praxisaufträge/)
   * [DBMS meiner Wahl - MSSQL](Praxisaufträge/DBMS.md)
   * [MySQL installieren](Praxisaufträge/MySQLInstallieren.md)
@@ -24,3 +25,4 @@
   * [CouchDB - Security](Praxisaufträge/ChouchDBSecurity.md)
   * [Couch DB - Backup, Import und Export](Praxisaufträge/CouchDBBackupImportExport.md)
   * [Couch DB - Replikation](Praxisaufträge/CouchDBReplikation.md)
+  * [MySQL - Replikation](Praxisaufträge/MySQLReplikation.md)
